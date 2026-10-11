@@ -1,7 +1,7 @@
 /* 遊戲樂園 Service Worker — 讓「加到主畫面」後可離線開啟
    策略：網路優先、失敗時回退快取（線上永遠最新，離線也能玩）
    改版時把 CACHE 版本號 +1，舊快取會自動清除。 */
-const CACHE = 'game-park-v4';
+const CACHE = 'game-park-v5';
 const CORE = [
   './',
   './index.html',
